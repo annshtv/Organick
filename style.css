@@ -641,12 +641,22 @@ header {
   height: 118px;
 }
 .headingInfo button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #274c5b;
+  margin-top: 150px;
   border: 2px solid #274c5b;
   border-radius: 16px;
   padding: 28px 45px 29px 45px;
   width: 220px;
   height: 80px;
-  margin-top: 150px;
+}
+.headingInfo .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 .cartInfo {
   border-radius: 31px 34px 30px 30px;
