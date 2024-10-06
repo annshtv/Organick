@@ -109,6 +109,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .explore img {
   margin-left: 15px;
@@ -245,6 +246,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  gap: 10px;
 }
 .cart {
   width: 335px;
@@ -409,6 +411,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-left: 300px;
+  gap: 10px;
 }
 .offerText span {
   position: relative;
@@ -463,4 +466,213 @@ header {
 }
 .circles img {
     padding-left: 530px;
+}
+.whoWe {
+    width: 1920px;
+    height: 930px;
+    display: flex;
+}
+.infoAbout {
+    width: 789px;
+    height: 723px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    right: 90px;
+    top: 95px;
+    padding-left: 100px;
+    padding-top: 22px;
+}
+.points2 h3 {
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+.points2 p {
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans;
+}
+.points2 {
+    width: 635px;
+    height: 358px;
+}
+.galery {
+    width: 1920px;
+    height: 957px;
+    background-color: #F1F8F4;
+    gap: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.image1 {
+    width: 612px;
+    height: 583px;
+    background-image:url("/pictures/galery1.png") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2 {
+    width: 612px;
+    height: 583px;
+    background-image:url("/pictures/galery2.png") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image3 {
+    width: 612px;
+    height: 583px;
+    background-image:url("/pictures/galery3.png") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1 p, .image2 p, .image3 p {
+    width: 320px;
+    color: #274C5B;
+    height: 96px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 33px;
+}
+.headInfo2 h2{
+    color: #274c5b;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Roboto;
+    width: 700px;
+    height: 118px;
+}
+.headInfo2 p, .headingText p {
+font-family: "Yellowtail", sans-serif;
+font-weight: 400;
+font-size: 36px;
+color: #7eb693;
+}
+.salad {
+background-image:url("/pictures/salad.png") ;
+width: 677px;
+height: 524px;
+border-radius: 30px;
+}
+.tomatoes {
+    background-image:url("/pictures/tomatoes.png") ;
+    width: 677px;
+    height: 524px;
+    border-radius: 30px;
+}
+.blog {
+width: 1400px;
+height: 815px;
+grid-template-rows: 1fr 2fr;
+grid-template-columns: 1fr;
+margin-top: 177px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 185px;
+position: relative;
+bottom: 50px;
+}
+.pics {
+width: 1400px;
+height: 592px;
+display: flex;
+justify-content: center;
+gap: 46px;
+}
+.headingInfo {
+width: 1400px;
+display: flex;
+justify-content: space-between;
+}
+.headingText h2 {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 50px;
+color: #274c5b;
+width: 702px;
+height: 118px;
+}
+.headingInfo button {
+border: 2px solid #274c5b;
+border-radius: 16px;
+padding: 28px 45px 29px 45px;
+width: 220px;
+height: 80px;
+margin-top: 150px;
+}
+.cartInfo {
+border-radius: 31px 34px 30px 30px;
+padding: 46px 57px 60px 57px;
+width: 613px;
+height: 330px;
+box-shadow: 0 20px 35px 0 rgba(167, 167, 167, 0.25);
+background: #fff;
+margin-top: 140px;
+margin-left: 32px;
+}
+.date p {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 25px;
+text-align: center;
+color: #274c5b;
+position: relative;
+bottom: 35px;
+}
+.date {
+border-radius: 100%;
+background-color: #fff;
+height: 80px;
+width: 80px;
+padding: 20px;
+margin-left: 32px;
+margin-top: 43px;
+}
+.cartInfo span {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #274c5b;
+}
+.cartInfo h2 {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 25px;
+color: #274c5b;
+}
+.cartInfo h2 + p {
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 18px;
+/* line-height: 30px; */ 
+color: #525c60;
+}
+.button button {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #274c5b;
+    width: 220px;
+    height: 79px;
+    border-radius: 16px;
+    background-color: #efd372;
+    border: none;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
