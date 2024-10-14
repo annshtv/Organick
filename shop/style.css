@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  box-sizing: border-box;
+  /* outline: 3px solid red; */
+
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1596px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    min-height: 204px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav {
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.nav li a {
+    color: #274c5b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.controlers {
+    display: flex;
+}
+
+.search, .cart {
+    position: relative;
+    max-width: 200px;
+}
+
+.search input {
+    position: absolute;
+}
+
+.search img {
+    position: absolute;
+    right: 0;
+}
+
+.shop {
+    min-height: 405px;
+    background-image: url(../page-about/aboutPage/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop h2 {
+    text-align: center;
+    padding-top: 184px;
+}
+
+.item {
+    border: 2px solid red;
+    max-width: 335px;
+    width: 100%;
+    min-height: 483px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+.item h3,
+.offcart h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #274c5b;
+  border-bottom: 1px #dedddd;
+  position: relative;
+  bottom: 28px;
+  left: 27px;
+}
+.s1 {
+  color: #b8b8b8;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Open Sans;
+  text-decoration: line-through;
+}
+.s1 + span {
+  color: #274c5b;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Open Sans;
+}
+.cartText {
+  display: flex;
+  flex-direction: row;
+  width: 279px;
+  height: 31px;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  bottom: 25px;
+}
