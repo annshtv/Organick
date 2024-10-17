@@ -13,10 +13,10 @@ body {
 }
 
 body {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -102,17 +102,6 @@ nav {
   border: none;
   background-color: #ffffff;
 }
-.shop_single {
-  min-height: 405px;
-  background-image: url(./Banner.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.shop_single h2 {
-  text-align: center;
-  padding-top: 184px;
-}
 .search input {
   border-radius: 36px;
   width: 376px;
@@ -122,16 +111,12 @@ nav {
   position: absolute;
   left: -370px;
 }
-.portfolioBanner {
-  min-height: 405px;
-  background-image: url(./pictures/Banner.png);
+.portfolioSBanner {
+  max-width: 1920px;
+  min-height: 898px;
+  background-image: url(./pic/ban.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.portfolioBanner h2 {
-  text-align: center;
-  padding-top: 184px;
 }
 .newsLatter {
   max-width: 1400px;
@@ -144,7 +129,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   gap: 220px;
-  margin-top: 140px;
 }
 .newsText h2 {
   font-family: "Roboto", sans-serif;
@@ -317,6 +301,72 @@ nav {
   color: #7eb693;
 }
 .portfolioCart {
-max-width: 451px;
-height: 503px;
+  max-width: 451px;
+  height: 503px;
+}
+.bannerContent {
+  max-width: 1400px;
+  height: 385px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+  margin-top: -168px;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 35px 0 rgba(167, 167, 167, 0.25);
+}
+.txt h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  color: #274c5b;
+  margin: 0;
+}
+.txt p, .carttxt p span, .portfolios p {
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 18px; 
+line-height: 1.654;
+color: #525c60;
+}
+.carttxt {
+border-radius: 0 30px 30px 0;
+padding: 106px 111px 106px 111px;
+width: 509px;
+height: 385px;
+background-color: #fafafa;
+text-align: start;
+}
+.carttxt p {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 25px;
+color: #274c5b;
+margin: 5px;
+}
+.txt, .txt2 {
+    text-align: center;
+}
+.portfolios h2 {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 35px;
+color: #274c5b;
+}
+.portfolioDetalis {
+max-width: 937px;
+height: 1300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 68px;
+}
+.portfolios img + span {
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 18px; 
+line-height: 1.654;
+text-align: center;
+color: #525c60;
+margin-left: 360px;
 }
