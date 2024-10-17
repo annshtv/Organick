@@ -13,97 +13,113 @@ body {
   margin: 0 auto;
 }
 
-header {
-  height: 204px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.container {
+  max-width: 1596px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.info {
+
+.header_top {
   display: flex;
-  flex-direction: row;
-  max-width: 1595px;
-  height: 66px;
   justify-content: space-between;
+  min-height: 204px;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 160px;
 }
-.navigation a {
+
+nav {
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+  margin-left: 150px;
+  list-style: none;
+}
+
+.nav li a,
+.but1 {
   color: #274c5b;
   font-size: 20px;
   font-family: Roboto;
   font-weight: bold;
+  text-decoration: none;
 }
-.navigation a:hover {
-  transform: scale(1.2);
-  color: #efd372;
-  transition: all 0.8s;
-}
-.logo {
-  max-width: 198.79px;
-  height: 53.72px;
+
+.controlers {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
+  gap: 18px;
 }
-.logo h1 {
+
+.search,
+.cart {
+  position: relative;
+  max-width: 200px;
+}
+
+.search input {
+  position: absolute;
+}
+.container h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 38px;
+  font-weight: 800;
+  font-size: 70px;
   color: #274c5b;
+  margin: 20px;
+  margin-left: 0;
 }
-.offcart:hover, .cart:hover {
-  transform: scale(1.1);
-  transition: all 1s;
+.search img {
+  position: absolute;
+  right: 0;
 }
-.navigation {
-  max-width: 564px;
-  height: 23px;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
-.navigation span {
-  font-size: 20px;
-  font-weight: bold;
-}
-.basket {
-  max-width: 553px;
-  height: 66px;
-  display: flex;
-  flex-direction: row;
-  gap: 25px;
-}
-.cart1 {
-  display: flex;
+.controlers .cartt {
   border: 1px solid #e0e0e0;
   border-radius: 33px;
   width: 159px;
-  height: 66px;
-  align-items: center;
-  gap: 12px;
+  display: flex;
 }
-.cart1 p {
+.contentInfo h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #274c5b;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.controlers .cartt input {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #274c5b;
+  border: none;
+  background-color: #ffffff;
 }
-.search {
+.controlers .cartt {
+    border: 1px solid #e0e0e0;
+    border-radius: 33px;
+    width: 159px;
+    display: flex;
+}
+.search, .cartt {
+    position: relative;
+    max-width: 200px;
+}
+.search input {
+  border-radius: 36px;
   width: 376px;
   height: 66px;
-  background-color: #fafafa;
-  border-radius: 36px;
-}
-.search img {
-  padding-left: 320px;
+  background: #fafafa;
+  border: none;
+  position: absolute;
+  left: -370px;
 }
 .banner {
   max-width: 1920px;
   height: 898px;
-  background-image: url("/pictures/Banner.jpg");
+  background-image: url("./pictures/Banner.jpg");
   margin: auto;
 }
 .content {
@@ -184,14 +200,14 @@ header {
 .photo1 {
   height: 367px;
   width: 682px;
-  background-image: url("/pictures/Photo.jpg");
+  background-image: url("./pictures/Photo.jpg");
   margin-right: 36px;
   border-radius: 30px;
 }
 .photo2 {
   height: 367px;
   width: 682px;
-  background-image: url("/pictures/Photo\ \(1\).jpg");
+  background-image: url("./pictures/Photo\ \(1\).jpg");
   border-radius: 30px;
 }
 .photo1 p,
@@ -218,7 +234,7 @@ header {
   color: #274c5b;
 }
 .aboutUs {
-  background-image: url("/pictures/Background.png");
+  background-image: url("./pictures/Background.png");
   margin-left: auto;
   margin-right: auto;
   max-width: 1920px;
@@ -418,7 +434,7 @@ header {
   margin-right: auto;
 }
 .testimonial {
-  background-image: url("/pictures/Background2.png");
+  background-image: url("./pictures/Background2.png");
   max-height: 1267px;
   max-width: 1920px;
   margin-top: 203px;
@@ -580,7 +596,7 @@ header {
 .image1 {
   width: 550px;
   height: 550px;
-  background-image: url("/pictures/galery1.png");
+  background-image: url("./pictures/galery1.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,7 +604,7 @@ header {
 .image2 {
   width: 550px;
   height: 550px;
-  background-image: url("/pictures/galery2.png");
+  background-image: url("./pictures/galery2.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -596,7 +612,7 @@ header {
 .image3 {
   width: 550px;
   height: 550px;
-  background-image: url("/pictures/galery3.png");
+  background-image: url("./pictures/galery3.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -631,13 +647,13 @@ header {
   color: #7eb693;
 }
 .salad {
-  background-image: url("/pictures/salad.png");
+  background-image: url("./pictures/salad.png");
   width: 677px;
   height: 524px;
   border-radius: 30px;
 }
 .tomatoes {
-  background-image: url("/pictures/tomatoes.png");
+  background-image: url("./pictures/tomatoes.png");
   width: 677px;
   height: 524px;
   border-radius: 30px;
