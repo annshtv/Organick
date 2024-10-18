@@ -51,6 +51,8 @@ nav {
   font-family: Roboto;
   font-weight: bold;
   text-decoration: none;
+  display: block;
+  transition: all .3s;
 }
 
 .controlers {
@@ -370,3 +372,13 @@ text-align: center;
 color: #525c60;
 margin-left: 360px;
 }
+
+@media (hover : hover) {
+    .nav li a:hover {
+      color: #7eb693;
+      transform: scale(1.1);
+  }
+  .input button:hover {
+    opacity: 0.9;
+  }
+  }

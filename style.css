@@ -45,6 +45,8 @@ nav {
   font-family: Roboto;
   font-weight: bold;
   text-decoration: none;
+  transition: all .3s;
+  display: block;
 }
 
 .controlers {
@@ -162,22 +164,8 @@ nav {
   align-items: center;
   gap: 10px;
 }
-.explore:hover, .photo1:hover, .photo2:hover, .offerButton button:hover, .button button:hover {
-  transform: scale(1.1);
-  transition: all .8s;
-}
-.headingInfo button:hover {
-  background-color: #274c5b;
-  color: #f1f8f4;
-  transition: all .25s;
-}
 .explore img {
   margin-left: 15px;
-}
-.image1:hover, .image2:hover, .image3:hover {
-  border-radius: 50px;
-  transition: all .5s;
-  transform: scale(1.1);
 }
 .offerBanner {
   max-width: 1400px;
@@ -325,10 +313,6 @@ nav {
   margin-top: 20px;
   gap: 10px;
 }
-.shop:hover,
-.cbutton:hover, .input button:hover {
-  opacity: 0.9;
-}
 .cart {
   width: 335px;
   height: 483px;
@@ -338,10 +322,6 @@ nav {
 .cart img {
   height: 324px;
   margin-top: 35px;
-}
-.footInfo img:hover {
-  border: solid 3px #274c5b;
-  border-radius: 120px;
 }
 .p p {
   color: #ffffff;
@@ -928,4 +908,40 @@ footer .contactUs p,
   color: #525c60;
   font-weight: 400;
   padding-right: 51px;
+}
+.cart {
+  max-width: 335px;
+  height: 483px;
+}
+@media (hover: hover) {
+  .explore:hover, .photo1:hover, .photo2:hover, .offerButton button:hover, .button button:hover {
+    transform: scale(1.1);
+    transition: all .8s;
+  }
+  .shop:hover,
+.cbutton:hover, .input button:hover {
+  opacity: 0.9;
+}
+.image1:hover, .image2:hover, .image3:hover {
+  border-radius: 50px;
+  transition: all .5s;
+  transform: scale(1.1);
+}
+.footInfo img:hover {
+  border: solid 3px #274c5b;
+  border-radius: 120px;
+}
+.headingInfo button:hover {
+  background-color: #274c5b;
+  color: #f1f8f4;
+  transition: all .25s;
+}
+.cart:hover, .offcart:hover {
+  transition: all .5s;
+  transform: scale(1.08);
+}
+.nav li a:hover {
+  color: #7eb693;
+  transform: scale(1.1);
+}
 }

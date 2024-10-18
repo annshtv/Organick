@@ -46,11 +46,14 @@ nav {
 }
 
 .nav li a {
+    display: block;
     color: #274c5b;
     font-size: 20px;
     font-family: Roboto;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s;
+
 }
 
 .controlers {
@@ -404,3 +407,16 @@ html {
     padding-right: 51px;
   }
   
+  @media (hover : hover ) {
+    .input button:hover {
+        opacity: 0.9;
+    }
+    .item:hover {
+        transition: all .5s;
+        transform: scale(1.08);
+    }
+    .nav li a:hover {
+        color: #7eb693;
+        transform: scale(1.1);
+    }
+  }
