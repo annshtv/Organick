@@ -124,7 +124,6 @@ nav {
 }
 .pics {
     max-width: 1400px;
-    height: 1867px;
     display: flex;
     justify-content: center;
     gap: 46px;
@@ -409,5 +408,117 @@ nav {
     color: #525c60;
     font-weight: 400;
     padding-right: 51px;
+  }
+  @media screen and (max-width:1200px) {
+    body {
+        overflow-x: hidden;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .nav {
+          display: flex;
+          margin-left: 0;
+      }
+      .search {
+          display: none;
+      }
+      .controlers .cart {
+        margin-right: 100px;
+      }
+      .blogBanner {
+        background-image: url(./blogPictures/blogBanner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 345px;
+        background-position: 50%;
+      }
+      .blogBanner h2 {
+        text-align: center;
+        padding-top: 130px;
+    }
+  }
+  
+  @media screen and (430px < width < 1200px) {
+    body {
+      overflow-x: hidden;
+      max-width: 768px;
+      margin: 0 auto;
+    }
+    .container {
+      max-width: 708px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .nav {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .blogBanner {
+        background-image: url(./blogPictures/blogBanner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 257px;
+      }
+      .blogBanner h2 {
+        text-align: center;
+        padding-top: 100px;
+    }
+    .salad, .tomatoes, .blog3, .blog4, .blog5, .blog6 {
+        width: 40%;
+        height: 524px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+    }
+    .cartInfo {
+        width: 100%;
+        margin-left: 0;
+        padding: 46px 0px 60px 0px;
+    }
+    .button button {
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: bold;
+        color: #274c5b;
+        border-radius: 16px;
+        background-color: #ffffff;
+        border: none;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+      }
+      .container h2 {
+        font-size: 44px;
+      }
+      .newsLatter {
+        background-position: 50%;
+        flex-direction: column;
+        gap: 0;
+        border-radius: 30px;
+      }
+      .newsText h2 {
+        font-size: 40px;
+        margin: 0;
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        gap: 10px;
+      }
+      .input button {
+        width: 100%;
+      }
+      .input input {
+        width: 100%;
+      }
   }
   
