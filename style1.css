@@ -1444,7 +1444,7 @@ gap: 20px;
     height: 500px;
 }
   }
-  @media screen and (min-width:420px) and (max-width:520px) {
+  @media screen and (min-width:380px) and (max-width:520px) {
     .menu {
         display: block;
         margin-right: 0;
