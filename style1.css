@@ -1585,6 +1585,13 @@ footer .contactUs p,
     gap: 30px;
     align-items: center;
   }
+  .organickBanner {
+    height: 550px;
+    background-position: 40%;
+  }
+  .organickBannerText {
+    padding-top: 150px;
+}
   .photo1,
   .photo2 {
     width: 300px;
