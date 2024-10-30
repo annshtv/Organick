@@ -1270,7 +1270,7 @@ footer .contactUs p,
         width: 205px;
       }
   }
-@media screen and (min-width: 390px) and (max-width: 768px) {
+@media screen and (min-width: 190px) and (max-width: 768px) {
   body {
     overflow-x: hidden;
     max-width: 768px;
@@ -1378,9 +1378,16 @@ footer .contactUs p,
   }
   footer .contactUs {
     border-right: none;
+    max-width: 280px;
+    margin-right: 0;
   }
   .UtilityPages {
     border-left: none;
+    max-width: 280px;
+    margin-left: 0;
+  }
+  .image1 p, .image2 p, .image3 p {
+    max-width: 280px;
   }
   .container h2 {
     font-size: 44px;
@@ -1402,13 +1409,16 @@ footer .contactUs p,
     gap: 10px;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    max-width: 280px;
   }
   .input button {
-    width: 50%;
+    width: 60%;
   }
   .input input {
-    width: 50%;
+    width: 60%;
+  }
+  .input button {
+    padding: 0;
   }
   .offerHead {
     padding-left: 70px;
@@ -1575,7 +1585,7 @@ footer .contactUs p,
       display: none;
     }
   }
-@media screen and (min-width: 380px) and (max-width: 520px) {
+@media screen and (min-width: 190px) and (max-width: 520px) {
   .menu {
     display: block;
     margin-right: 0;
@@ -1610,19 +1620,29 @@ footer .contactUs p,
   }
   .point1,
   .point2 {
-    width: 350px;
+    width: 280px;
+    flex-direction: column;
+  }
+  .cart img {
+    max-width: 280px;
   }
   .shop {
-    margin-left: 90px;
+    margin-left: 0;
+  }
+  .offcart img {
+    max-width: 280px;
+  }
+  .offcart {
+    max-width: 280px;
   }
   .carts {
     margin-left: 0px;
   }
   .footInfo {
-    padding-left: 80px;
+    padding-left: 40px;
   }
   .offerHead {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 50px;
     flex-direction: column;
     align-items: baseline;
@@ -1634,7 +1654,7 @@ footer .contactUs p,
     display: none;
   }
   .offerCarts {
-    margin-left: 10px;
+    margin-left: 0;
   }
   .offer {
     margin-top: 350px;
