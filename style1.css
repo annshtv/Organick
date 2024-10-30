@@ -977,7 +977,46 @@ footer .contactUs p,
     transform: scale(1.1);
   }
 }
-
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .conteent {
+        margin-top: 1000px;
+        margin-left: 0;
+    }
+    .offerCarts {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    .offerHead {
+        padding-top: 50px;
+    }
+    .whoWeAre {
+    display: block;
+    margin-right: 0;
+    }
+    .galleryOrg {
+        margin-top: 200px;
+    }
+    .pics {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .blog {
+        margin-top: 0;
+    }
+    .img {
+        width: 100%;
+    }
+    .newsLatter {
+        border-radius: 30px;
+    }
+    .search {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
 @media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
@@ -1197,6 +1236,39 @@ footer .contactUs p,
     .offer {
       margin-top: 350px;
     }
+  }
+  @media screen and (min-width: 768px) and (max-width: 865px) {
+    .footInfo {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 700px;
+    }
+    .offerButton button {
+        margin-left: 0;
+    }
+    footer {
+        max-width: 1920px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        align-items: center;
+      }
+      .aboutUsfoot {
+        height: 100%;
+      }
+      footer .contactUs {
+        border: none;
+      }
+      .UtilityPages {
+        border: none;
+      }
+      .input input {
+        width: 205px;
+      }
+      .input button {
+        width: 205px;
+      }
   }
 @media screen and (min-width: 390px) and (max-width: 768px) {
   body {
