@@ -1281,6 +1281,13 @@ footer .contactUs p,
     margin: 0 auto;
     padding: 0 20px;
   }
+  .organickBanner {
+    height: 550px;
+    background-position: 40%;
+  }
+  .organickBannerText {
+    padding-top: 150px;
+}
   .nav {
     display: none;
   }
