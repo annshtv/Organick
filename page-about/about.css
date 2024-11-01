@@ -7,7 +7,7 @@
 }
 .bannerAbout {
   max-width: 1920px;
-  min-height: 450px;
+  height: 450px;
   background-image: url("aboutPage/Banner.png");
   background-repeat: no-repeat;
   background-size: cover;

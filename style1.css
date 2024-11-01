@@ -1399,7 +1399,7 @@ footer .contactUs p,
     border-radius: 30px;
   }
   .newsText h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
   }
   .input {
@@ -1597,11 +1597,85 @@ footer .contactUs p,
     align-items: center;
   }
   .organickBanner {
-    height: 550px;
+    height: 300px;
     background-position: 40%;
   }
   .organickBannerText {
     padding-top: 150px;
+}
+.heading h2, .teamText h2 {
+  font-size: 25px;
+}
+.cartAbout {
+  max-width: 250px;
+  padding: 10px;
+}
+.teamText span {
+  font-size: 15px; 
+}
+.contentPic {
+  margin-top: 30px;
+}
+.team {
+  margin-top: 0;
+}
+.aboutContent {
+  max-width: 280px;
+}
+.bannerAbout {
+    height: 300px;
+    background-position: 40%;
+}
+.heading h2 {
+  font-size: 25px;
+}
+.offerProduct {
+  max-width: 280px;
+  padding: 0;
+}
+.offCart img {
+  max-width: 250px;
+}
+.newsLatter {
+  max-width: 280px;
+}
+.offerProductContent {
+  max-width: 280px;
+}
+.offHeading h2 {
+  font-size: 30px;;
+}
+.bannerAbout h2 {
+font-family: "Roboto", sans-serif;
+font-weight: 800;
+font-size: 30px;
+color: #274c5b;
+text-align: center;
+padding-top: 140px;
+}
+.point {
+  align-items: flex-start;
+}
+
+.contentWhyUs {
+  max-width: 280px; 
+}
+.subContent + button {
+  width: 200px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.whyUs {
+  padding-top: 30px;
+}
+.pointhead h2 {
+  font-size: 20px;
+  padding: 29px 30px 29px 27px;
+}
+.offerProduct {
+  margin-top: 50px;
+  padding-bottom: 30px;
+
 }
   .photo1,
   .photo2 {
@@ -1610,6 +1684,17 @@ footer .contactUs p,
   .container h2 {
     font-size: 30px;
   }
+  .teamPic {
+    max-width: 280px;
+  }
+  .points {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+.imgPic {
+  width: 100%;
+}
   .conteent {
     width: 100%;
     margin-left: 10px;
