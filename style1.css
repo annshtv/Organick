@@ -1492,9 +1492,12 @@ footer .contactUs p,
   .circles img {
     display: none;
   }
-  .cart {
+  .cart, .item {
     max-width: 300px;
   }
+  .item img {
+    max-width: 280px;
+}
   .footInfo {
     display: flex;
     flex-direction: column;
@@ -1503,6 +1506,13 @@ footer .contactUs p,
     justify-content: center;
     padding-left: 220px;
     max-width: 708px;
+  }
+  .shopBanner {
+      height: 300px;
+      background-position: 40%;
+  }
+  .shopBanner h2 {
+      font-size: 30px;
   }
   .offer {
     margin-top: 300px;
