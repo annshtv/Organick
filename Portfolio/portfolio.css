@@ -11,7 +11,14 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.portfolioBanner h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #274c5b;
+  text-align: center;
+  padding-top: 180px;
+}
 .shop_single h2 {
   text-align: center;
   padding-top: 184px;

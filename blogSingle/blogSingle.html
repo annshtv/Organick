@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Single</title>
     <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="../style1.css">
     <link rel="stylesheet" href="./blogSingle.css">
+    <link rel="stylesheet" href="../style1.css">
 </head>
 <body>
     <header class="header">
@@ -27,6 +27,10 @@
                         <li><a href="">News</a></li>
                     </ul>
                 </nav>
+                <div class="menu">
+                  <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                  <label for="burger-checkbox" class="burger"></label>
+              </div>
                 <div class="controlers">
                     <div class="search">
                         <input type="search" name="" id="">
@@ -45,7 +49,7 @@
         <section class="blogSingleBanner"></section>
         <section class="bannerContent">
             <div class="container">
-            <div class="txt">
+            <div class="txtb">
                 <span>Posted On:</span> <span>January 6, 2022</span><svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.8161 1.45446C11.9741 0.516515 10.798 0 9.5 0C8.19504 0 7.01512 0.51339 6.17701 1.44553C5.32983 2.38793 4.91705 3.66873 5.01397 5.05176C5.20608 7.78031 7.21848 9.99994 9.5 9.99994C11.7815 9.99994 13.7905 7.78076 13.9856 5.05265C14.0838 3.68212 13.6684 2.404 12.8161 1.45446ZM17.1152 19.9999H1.88482C1.68547 20.0026 1.48805 19.9594 1.30692 19.8734C1.12579 19.7874 0.96551 19.6609 0.837738 19.503C0.556496 19.1561 0.443134 18.6825 0.527074 18.2035C0.892256 16.1133 2.03194 14.3575 3.82323 13.1249C5.41463 12.0307 7.43049 11.4285 9.5 11.4285C11.5695 11.4285 13.5854 12.0312 15.1768 13.1249C16.9681 14.3571 18.1077 16.1129 18.4729 18.203C18.5569 18.682 18.4435 19.1557 18.1623 19.5026C18.0345 19.6606 17.8743 19.7872 17.6931 19.8732C17.512 19.9592 17.3146 20.0025 17.1152 19.9999Z" fill="#7EB693" />
                   </svg> <span>By Rachi Card</span>
@@ -56,7 +60,7 @@
             </div>
             </div>
           </section>
-          <section class="p">
+          <section class="ptext">
             <div class="container">
                 <p>Uniquely matrix economically sound value through cooperative technology. Competently parallel task fully <br> researched data and enterprise process improvements. Collaboratively expedite quality manufactured <br>products via client-focused results quickly communicate enabled technology and turnkey leadership skills. <br> Uniquely enable accurate supply chains rather than friction technology.</p>
             </div>
@@ -102,8 +106,6 @@
           </section>
     </main>
     <footer>
-        <div class="container">
-          <div class="footer">
             <div class="contactUs">
               <h2>Contact Us</h2>
               <h3>Email</h3>
@@ -288,12 +290,10 @@
               <p>Licences</p>
               <p>Changelog</p>
             </div>
-          </div>
           <div class="spans">
             <span>Copyright ©</span>
             <span>Organick</span>
           </div>
-        </div>
       </footer>
 </body>
 </html>

@@ -672,7 +672,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 177px;
 }
 .headingInfo {
   max-width: 1400px;
@@ -704,7 +703,6 @@ nav {
 }
 .pics {
   max-width: 1400px;
-  height: 592px;
   display: flex;
   justify-content: center;
   gap: 46px;
@@ -1016,7 +1014,18 @@ footer .contactUs p,
     .menu {
         display: none;
     }
+    .about {
+      flex-direction: column;
+    }
+    .teamCarts {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Carts {
+      flex-direction: column;
+    }
 }
+
 @media screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
@@ -1069,17 +1078,7 @@ footer .contactUs p,
   .Carts {
     flex-direction: column;
   }
-  .blogBanner {
-    background-image: url(./blogPictures/blogBanner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 345px;
-    background-position: 50%;
-  }
-  .blogBanner h2 {
-    text-align: center;
-    padding-top: 130px;
-  }
+ 
   .content {
     margin-left: 80px;
   }
@@ -1172,6 +1171,7 @@ footer .contactUs p,
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+    align-items: center;
   }
   .headingText h2 {
     font-size: 30px;
@@ -1203,6 +1203,7 @@ footer .contactUs p,
     margin-right: auto;
     margin-left: auto;
     border-radius: 30px;
+    margin-top: 70px;
   }
   .headingText {
     margin-left: 0px;
@@ -1225,6 +1226,15 @@ footer .contactUs p,
     margin-bottom: 50px;
     margin-left: 0;
   }
+  .detalis {
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .carrot {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 925px) {
     .controlers {
@@ -1235,6 +1245,9 @@ footer .contactUs p,
     }
     .offer {
       margin-top: 350px;
+    }
+    .detalis {
+      flex-direction: column;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 865px) {
@@ -1269,6 +1282,12 @@ footer .contactUs p,
       .input button {
         width: 205px;
       }
+      .detalis {
+        flex-direction: column;
+      }
+      .carrot {
+        width: 100%;
+      }
   }
 @media screen and (min-width: 190px) and (max-width: 768px) {
   body {
@@ -1287,6 +1306,34 @@ footer .contactUs p,
   }
   .organickBannerText {
     padding-top: 150px;
+}
+.bannerContent {
+  flex-direction: column;
+  padding: 30px;
+}
+.carrot {
+  width: 100%;
+}
+.carttxt {
+  padding: 50px 50px;
+  height: 100%;
+}
+.txt h2 {
+  font-size: 35px;
+}
+.portfolioSBanner, .blogSingleBanner {
+  height: 400px;
+}
+.imgPic {
+  width: 100%;
+}
+.txt h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.aboutContent {
+  width: 100%;
+  padding-left: 10px;
 }
   .nav {
     display: none;
@@ -1313,16 +1360,7 @@ footer .contactUs p,
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .blogBanner {
-    background-image: url(./blogPictures/blogBanner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 257px;
-  }
-  .blogBanner h2 {
-    text-align: center;
-    padding-top: 100px;
-  }
+
   .salad,
   .tomatoes,
   .blog3,
@@ -1397,6 +1435,7 @@ footer .contactUs p,
     flex-direction: column;
     gap: 0;
     border-radius: 30px;
+    margin-top: 70px;
   }
   .newsText h2 {
     font-size: 30px;
@@ -1495,9 +1534,6 @@ footer .contactUs p,
   .cart, .item {
     max-width: 300px;
   }
-  .item img {
-    max-width: 280px;
-}
   .footInfo {
     display: flex;
     flex-direction: column;
@@ -1511,8 +1547,9 @@ footer .contactUs p,
       height: 300px;
       background-position: 40%;
   }
-  .shopBanner h2 {
+  .shopBanner h2, .shop_single h2, .portfolioBanner h2, .blogBanner h2 {
       font-size: 30px;
+      padding-top: 140px;
   }
   .offer {
     margin-top: 300px;
@@ -1533,10 +1570,25 @@ footer .contactUs p,
   .offcart {
     margin-top: 30px;
   }
+  .productTitle {
+    flex-direction: column;
+  }
+  .detalis {
+    flex-direction: column;
+  }
+  .detalisPic {
+    width: 100%;
+  }
+  .contentButtons {
+    flex-direction: column;
+}
   .whoWe {
     max-width: 768px;
     height: 100%;
     display: block;
+  }
+  .contentDetalis {
+      max-width: 280px;
   }
   .infoAbout {
     top: 0;
@@ -1590,6 +1642,9 @@ footer .contactUs p,
     width: 500px;
     height: 500px;
   }
+  .portfolioCart img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 490px) {
     .controlers {
@@ -1597,6 +1652,9 @@ footer .contactUs p,
     }
   }
 @media screen and (min-width: 190px) and (max-width: 520px) {
+  .portfolioCart img {
+    width: 100%;
+  }
   .menu {
     display: block;
     margin-right: 0;
@@ -1640,7 +1698,6 @@ footer .contactUs p,
   font-size: 25px;
 }
 .offerProduct {
-  max-width: 280px;
   padding: 0;
 }
 .offCart img {
@@ -1648,6 +1705,7 @@ footer .contactUs p,
 }
 .newsLatter {
   max-width: 280px;
+  margin-top: 70px;
 }
 .offerProductContent {
   max-width: 280px;
@@ -1693,6 +1751,9 @@ padding-top: 140px;
   }
   .container h2 {
     font-size: 30px;
+  }
+  .catalog .container h2 {
+    font-size: 35px;
   }
   .teamPic {
     max-width: 280px;
@@ -1774,6 +1835,7 @@ padding-top: 140px;
   }
   .pics {
     margin-left: 0;
+    align-items: center;
   }
   .salad,
   .tomatoes,
@@ -1817,7 +1879,7 @@ padding-top: 140px;
   .blog4,
   .blog5,
   .blog6 {
-    width: 100%;
+    max-width: 300px;
     margin-left: 0;
   }
   .cart {

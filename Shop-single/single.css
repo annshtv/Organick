@@ -20,7 +20,11 @@ body {
 
 .shop_single h2 {
   text-align: center;
-  padding-top: 184px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #274c5b;
+    padding-top: 180px;
 }
 .search input {
   border-radius: 36px;
@@ -228,8 +232,8 @@ html {
 }
 .description {
   border-radius: 16px;
-  padding: 23px 57px;
-  width: 363px;
+  padding: 23px 27px;
+  max-width: 320px;
   height: 80px;
   background-color: #274c5b;
   font-family: "Open Sans", sans-serif;
@@ -240,8 +244,8 @@ html {
 }
 .info {
   border-radius: 16px;
-  padding: 23px 61px;
-  width: 309px;
+  padding: 23px 27px;
+  max-width: 320px;
   height: 80px;
   background: #eff6f1;
   font-family: "Open Sans", sans-serif;
