@@ -1531,7 +1531,7 @@ footer .contactUs p,
   .circles img {
     display: none;
   }
-  .cart, .item {
+  .cart {
     max-width: 300px;
   }
   .footInfo {
